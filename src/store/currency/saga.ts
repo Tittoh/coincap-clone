@@ -43,6 +43,7 @@ function* fetchCurrencyList() {
     yield put<ActionTypes>(setCurrencyData(currencyListData));
     yield fork(watchNewCurrency);
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.log(error);
   }
 }
