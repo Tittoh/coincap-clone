@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <FooterContainer>
       <FooterText>
-        Disclaimer: That isn&apos;t my site. It&apos;s a copy of CoinCap.io.
+        This is acoincap.io clone. All rights reserved.
       </FooterText>
     </FooterContainer>
   );
